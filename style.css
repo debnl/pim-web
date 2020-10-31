@@ -36,8 +36,7 @@ body {
 
 	display: inline-block;
 	margin-right: 80px;
-	margin-top: 20px;
-	vertical-align: initial;
+	margin-top: 20px;s
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -84,7 +83,7 @@ menu li:hover {
 	text-align: center;
 	font-weight: bolder;
 	margin-bottom: 15px;
-	color: #f69239;
+	color: #6fa0df;
 	
 }
 
@@ -94,11 +93,26 @@ menu li:hover {
 	margin-bottom: 20px;
 }
 
+.texto-quem h1 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 15px;
+	color: #f69239;
+	
+}
+
+.texto-quem p {
+	
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 .botao a {
 
 	text-decoration: none;
 	color: #fff;
-	background-color: #f69239;
+	background-color: #6fa0df;
 	margin: 10px;
 	padding: 5px;
 	border: 0px;
@@ -113,9 +127,52 @@ menu li:hover {
 	font-weight: bolder;
 }
 
+.botao-quem a {
+
+	text-decoration: none;
+	color: #fff;
+	background-color: #f69239;
+	margin: 10px;
+	padding: 5px;
+	border: 0px;
+	border-radius: 6px;
+}
+
+.botao-quem:hover {
+	transform: scale(1.04);
+	transition: 0.3s;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bolder;
+}
+
+
 .ilustra img {
     height: 33rem;
 }
+
+/*form
+
+
+.enviar{
+	width: 60%;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	background-color: #ffcce6;
+	border: none;
+	border-radius: 10px;
+
+}
+
+.enviar:hover{
+	background-color: #ff4da6;
+	color: white;
+	transform: scale(1.02);
+  	transition: 0.5s;
+  	cursor: pointer;
+}*/
+
 
 /* media queries */
 
